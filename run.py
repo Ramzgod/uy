@@ -860,9 +860,14 @@ def banner():
              """,width=90,title=f"[bold red][[bold cyan] {Definisi__Waktu()} [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #------------------[ LOGO-LAKNAT-V2]-----------------#
 def logo():
-	cetak(panel(f"""[bold green]                       _  _ _   _ ___  ____ _  _    _  _ ___  
-[bold green]                        \/   \_/    /  |  | |\ | __  \/  |  \ 
-[bold green]                       _/\_   |    /__ |__| | \|    _/\_ |__/ 
+	cetak(panel(f"""
+[bold white]                 _____  _____  _____  _   __ _____  _____  _____ 
+[bold red]              [bold white] /  __ \|  _  ||  _  || | / /|_   _||  ___|/  ___|
+[bold white]            [bold red]   | /  \/| | | || | | || |/ /   | |  | |__  \ `--.       [bold green]PremiumXD
+[bold red]               | |    | | | || | | ||    \   | |  |  __|  `--. \      [bold cyan]By XyzonXD
+[bold cyan]               | \__/\\\_/ / \ \_/ /| |\  \ _| |_ | |___ /\__/ /      [bold white]V.2.5
+[bold cyan]                \____/ \___/  \___/ \_| \_/ \___/ \____/ \____/ 
+                 [bold red]©[bold yellow]©[bold green]©[bold cyan] XYZON [bold yellow]MULTI [bold green]BRUTE [bold red]FORCE [bold red]©[bold yellow]©[bold green]©
              """,width=90,title=f"[bold red][[bold cyan] By [bold green]Xyzon Dev [bold red]]",subtitle=f"[bold red][[bold cyan] SELAMAT DATANG DI LAYANAN KAMI BOSSKU [bold red]]",style=f"bold red"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
@@ -872,7 +877,7 @@ def login123():
 	#os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	#os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]Xyzon Dev[bold cyan] Yang Telah Membuat Script Ini [bold yellow]Xyzon Multi Brute Force',width=90,style=f"bold red"))
-	cetak(panel(f"[bold white][[bold green]01[bold white]] [bold cyan]Login Menggunakan Cookies                     [bold white][[bold green]03[bold white]] [bold cyan]Tutorial Ambil Cookies \n[bold white][[bold green]02[bold white]] [bold cyan]Doa Sebelum Crack                             [bold white][[bold green]04[bold white]] [bold cyan]Cek Hasil Crack ",width=90,title=f"[bold red][[bold green] Menu Login [bold red]]",style=f"bold red"))
+	cetak(panel(f"[bold white][[bold green]01[bold white]]. [bold cyan]Login Menggunakan Cookies [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]02[bold white]]. [bold cyan]Doa Sebelum Crack [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]03[bold white]]. [bold cyan]Cara Mengambil Cookies Facebook [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]04[bold white]]. [bold cyan]Cek Hasil Crack [bold white][[bold green] ON [/][bold white]][/]\n[[bold green]05[bold white]]. [bold cyan]Hubungi Admin [bold white][[bold green] ON [/][bold white]][/]",width=90,title=f"[bold red][[bold green] Menu Login [bold red]]",style=f"bold red"))
 	cetak(panel(f'[bold cyan]Anda Wajib Login Menggunakan Cookies Untuk Unlock Semua Fitur Spesial Yang Ada Di Script Ini [bold green]By Xyzon Dev',width=90,title=f"[bold red][[bold green] Informasi [bold red]]",style=f"bold red"))
 	vevek = input(f' {P}[{H}+{P}]\33[1;96m Pilih Menu \x1b[1;91m> {P}')
 	if vevek in ['1','01']:
@@ -991,7 +996,7 @@ def menu(my_name,my_id):
 	xyzondev.append(panel(f'[bold white][[bold green]+[/][bold white]][/] [bold cyan] Username : [bold yellow]{my_name}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Idz : [bold yellow]{my_id}[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]User Ip  : [bold yellow]{ip}[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Tanggal  : [bold yellow]{tgl} {bln} {thn}[/][/] ',width=43,title=f"",style=f"bold red"))
 	xyzondev.append(panel(f'[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Author : [bold green]Xyzon Dev[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]NameSC : [bold green]Xyzon Multi Brute Force[/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Versi  : [bold green]2.8[/][/]\n[bold white][[bold green]+[/][bold white]][/]  [bold cyan]Status : [bold green]Premium[/][/] ',width=44,title=f"",style=f"bold red"))
 	wa.print(Columns(xyzondev))
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends                 [bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector \n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Massal                         [bold white][[bold green]12[/][bold white]][/]. [bold cyan]Gets Headers \n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username                       [bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target \n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup                    [bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target \n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Followers                      [bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target \n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target                   [bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook \n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita                      [bold white][[bold green]17[/][bold white]][/]. [bold cyan]Get Data Pengguna \n[bold white][[bold green]08[/][bold white]][/]. [bold cyan]Crack ID From Nomor Target                   [bold white][[bold green]18[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF \n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target                   [bold white][[bold green]19[/][bold white]][/]. [bold cyan]Report Bug Script\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check ID Hasil Crack                         [bold white][[bold red]00[/][bold white]][/]. [bold red]Hapus Cookies [/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Crack ID From Pubilc Friends [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Crack ID From Random Massal [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Crack ID From Username [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Crack ID From Member Grup [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Crack ID From Total Followers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Crack ID From Email Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]07[/][bold white]][/]. [bold cyan]Crack ID From File Kita [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]08[/][bold white]][/]. [bold cyan]Crack ID From Nomor Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]09[/][bold white]][/]. [bold cyan]Crack ID From Komen Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]10[/][bold white]][/]. [bold cyan]Check Hasil Crack [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]11[/][bold white]][/]. [bold cyan]Chekpoint Detector [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]12[/][bold white]][/]. [bold cyan]Get Headers [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]13[/][bold white]][/]. [bold cyan]Lacak IP Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]14[/][bold white]][/]. [bold cyan]Spam Sms Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]15[/][bold white]][/]. [bold cyan]Spam WhatsApp Target [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]16[/][bold white]][/]. [bold cyan]Bot Komen Facebook [bold white][[bold green] ON [bold white]][bold white]\n[bold white][[bold green]17[/][bold white]][/]. [bold cyan]Get Data Pengguna [bold green]Lain [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold green]18[/][bold white]][/]. [bold cyan]Ingfo Author [bold yellow]XMBF [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]19[/][bold white]][/]. [bold cyan]Report Bug Script [bold white][[bold green] ON [bold white]]\n[bold white][[bold green]RM[/][bold white]][/]. [bold cyan]Remove Data Login [bold white][[bold green] ON [bold white]][/]\n[bold white][[bold red]00[/][bold white]][/]. [bold red]Keluar Script [bold white][[bold green] ON [bold white]][/]',width=90,title=f"[bold red][[bold green] List Menu [bold red]]",style=f"bold red"))
 	_____xyzon___xd____ = input(f' {P}[{H}+{P}] \33[1;96mPilih Menu Crack \x1b[1;91m> {P}')
 	if _____xyzon___xd____ in ['1','01']:
 		xyzoncrackpublik()
@@ -1034,14 +1039,16 @@ def menu(my_name,my_id):
 		os.system("xdg-open https://wa.me/+6282183929059?text=Asalammualikum+Bang+Saya+Mau+Melaporkan+Bug+Pada+Sc+Mu+Bang")
 		time.sleep(3)
 		exit()
-	elif _____xyzon___xd____ in('ahhh','vvvk'):
-		os.system("xdg-open https://www.xnxx.luxe/")
-	elif _____xyzon___xd____ in('0','00'):
+	elif _____xyzon___xd____ in ['rm','Rm','RM']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		jalan(f' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]{m} Sukses Menghapus Data Script{x}')
 		time.sleep(5)
 		login123()
+	elif _____xyzon___xd____ in('ahhh','vvvk'):
+		os.system("xdg-open https://www.xnxx.luxe/")
+	elif _____xyzon___xd____ in('0','00'):
+		exit()
 	else:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91m Pilih Yang Bener Asu ')
 		back()
@@ -2144,10 +2151,7 @@ def setting():
 	else:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91mPilih Yang Bener Kontooll ')
 		exit()
-	xyzondev = []
-	xyzondev.append(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Metode Mobile  [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Metode Mbasic [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Metode Free [bold white][[bold green]Very Slow[bold white]][/]',width=43,title=f"",style=f"bold red"))
-	xyzondev.append(panel(f'[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Metode B-Api [bold white][[bold green]Very Fast[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Metode Async [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Metode Reguler [bold white][[bold green]Slow[bold white]][/]',width=44,title=f"",style=f"bold red"))
-	wa.print(Columns(xyzondev))
+	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Metode Mobile  [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Metode Mbasic [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Metode Free [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Metode B-Api [bold white][[bold green]Very Fast[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Metode Async [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Metode Reguler [bold white][[bold green]Slow[bold white]][/]',width=90,title=f"[bold red][[bold green] Setting Metode [bold red]]",style=f"bold red"))
 	hc = input(f' {P}[{H}+{P}] \33[1;96mPilih Metode \x1b[1;91m>{P} ')
 	if hc in ['1','01']:
 		method.append('mobile')
@@ -2163,7 +2167,9 @@ def setting():
 	    method.append('reguler')
 	else:
 		method.append('mobile')
-	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Pass Random           [bold white][[bold green]02[bold white]]. [bold cyan]Pass Otomatis          [bold white][[bold green]03[bold white]]. [bold cyan]Pass Manual ''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
+	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Password Random[bold white] [[bold green]Good[bold white]]
+[bold white][[bold green]02[bold white]]. [bold cyan]Password Otomatis [bold white][[bold green]Very Good[bold white]]
+[bold white][[bold green]03[bold white]]. [bold cyan]Password Manual [bold white][[bold red]Not Good[bold white]]''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
 	pwplus=input(f' {P}[{H}+{P}]\33[1;96m Pilih sandi \x1b[1;91m>{P} ')
 	if pwplus in ['03','3']:
 		pwpluss.append('ya')

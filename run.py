@@ -2144,6 +2144,7 @@ def setting():
 	else:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91mPilih Yang Bener Kontooll ')
 		exit()
+	xyzondev = []
 	xyzondev.append(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Metode Mobile  [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Metode Mbasic [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Metode Free [bold white][[bold green]Very Slow[bold white]][/]',width=43,title=f"",style=f"bold red"))
 	xyzondev.append(panel(f'[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Metode B-Api [bold white][[bold green]Very Fast[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Metode Async [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Metode Reguler [bold white][[bold green]Slow[bold white]][/]',width=44,title=f"",style=f"bold red"))
 	wa.print(Columns(xyzondev))

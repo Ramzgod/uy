@@ -1,4 +1,4 @@
-l# pengkodean = python
+# pengkodean = python
 # coding oleh Xyzon Dev
 # Makan Dulu Sebelum Ngerecode
 # Izin dlu lah bro kalau mau recode, gk ngotak njir_-

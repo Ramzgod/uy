@@ -872,7 +872,7 @@ def login123():
 	#os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	#os.popen("play-audio data/audio/cakculay_xyzondev_03-05-23_13-15-18-089.mp3")
 	cetak(panel(f'[bold cyan]Terima Kasih Kepada [bold green]Xyzon Dev[bold cyan] Yang Telah Membuat Script Ini [bold yellow]Xyzon Multi Brute Force',width=90,style=f"bold red"))
-	cetak(panel(f"[bold white][[bold green]01[bold white]] [bold cyan]Login Menggunakan Cookies                 [bold white][[bold green]03[bold white]] [bold cyan]Tutorial Ambil Cookies \n[bold white][[bold green]02[bold white]] [bold cyan]Doa Sebelum Crack                         [bold white][[bold green]04[bold white]] [bold cyan]Cek Hasil Crack ",width=90,title=f"[bold red][[bold green] Menu Login [bold red]]",style=f"bold red"))
+	cetak(panel(f"[bold white][[bold green]01[bold white]] [bold cyan]Login Menggunakan Cookies                     [bold white][[bold green]03[bold white]] [bold cyan]Tutorial Ambil Cookies \n[bold white][[bold green]02[bold white]] [bold cyan]Doa Sebelum Crack                             [bold white][[bold green]04[bold white]] [bold cyan]Cek Hasil Crack ",width=90,title=f"[bold red][[bold green] Menu Login [bold red]]",style=f"bold red"))
 	cetak(panel(f'[bold cyan]Anda Wajib Login Menggunakan Cookies Untuk Unlock Semua Fitur Spesial Yang Ada Di Script Ini [bold green]By Xyzon Dev',width=90,title=f"[bold red][[bold green] Informasi [bold red]]",style=f"bold red"))
 	vevek = input(f' {P}[{H}+{P}]\33[1;96m Pilih Menu \x1b[1;91m> {P}')
 	if vevek in ['1','01']:
@@ -2160,9 +2160,7 @@ def setting():
 	    method.append('reguler')
 	else:
 		method.append('mobile')
-	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Password Random[bold white] [[bold green]Good[bold white]]
-[bold white][[bold green]02[bold white]]. [bold cyan]Password Otomatis [bold white][[bold green]Very Good[bold white]]
-[bold white][[bold green]03[bold white]]. [bold cyan]Password Manual [bold white][[bold red]Not Good[bold white]]''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
+	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Pass Random        [bold white][[bold green]02[bold white]]. [bold cyan]Pass Otomatis       [bold white][[bold green]03[bold white]]. [bold cyan]Pass Manual ''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
 	pwplus=input(f' {P}[{H}+{P}]\33[1;96m Pilih sandi \x1b[1;91m>{P} ')
 	if pwplus in ['03','3']:
 		pwpluss.append('ya')

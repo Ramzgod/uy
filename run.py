@@ -2144,7 +2144,9 @@ def setting():
 	else:
 		print(' \x1b[1;97m[\x1b[1;92m+\x1b[1;97m]\33[1;91mPilih Yang Bener Kontooll ')
 		exit()
-	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Metode Mobile  [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Metode Mbasic [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Metode Free [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Metode B-Api [bold white][[bold green]Very Fast[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Metode Async [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Metode Reguler [bold white][[bold green]Slow[bold white]][/]',width=90,title=f"[bold red][[bold green] Setting Metode [bold red]]",style=f"bold red"))
+	xyzondev.append(panel(f'[bold white][[bold green]01[/][bold white]][/]. [bold cyan]Metode Mobile  [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]02[/][bold white]][/]. [bold cyan]Metode Mbasic [bold white][[bold green]Slow[bold white]][/]\n[bold white][[bold green]03[/][bold white]][/]. [bold cyan]Metode Free [bold white][[bold green]Very Slow[bold white]][/]',width=43,title=f"",style=f"bold red"))
+	xyzondev.append(panel(f'[bold white][[bold green]04[/][bold white]][/]. [bold cyan]Metode B-Api [bold white][[bold green]Very Fast[bold white]][/]\n[bold white][[bold green]05[/][bold white]][/]. [bold cyan]Metode Async [bold white][[bold green]Very Slow[bold white]][/]\n[bold white][[bold green]06[/][bold white]][/]. [bold cyan]Metode Reguler [bold white][[bold green]Slow[bold white]][/]',width=44,title=f"",style=f"bold red"))
+	wa.print(Columns(xyzondev))
 	hc = input(f' {P}[{H}+{P}] \33[1;96mPilih Metode \x1b[1;91m>{P} ')
 	if hc in ['1','01']:
 		method.append('mobile')
@@ -2160,7 +2162,7 @@ def setting():
 	    method.append('reguler')
 	else:
 		method.append('mobile')
-	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Pass Random        [bold white][[bold green]02[bold white]]. [bold cyan]Pass Otomatis       [bold white][[bold green]03[bold white]]. [bold cyan]Pass Manual ''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
+	cetak(panel('''[bold white][[bold green]01[bold white]]. [bold cyan]Pass Random           [bold white][[bold green]02[bold white]]. [bold cyan]Pass Otomatis          [bold white][[bold green]03[bold white]]. [bold cyan]Pass Manual ''',width=90,title=f"[bold red][[bold green] Setting Password[bold red]]",style=f"bold red"))
 	pwplus=input(f' {P}[{H}+{P}]\33[1;96m Pilih sandi \x1b[1;91m>{P} ')
 	if pwplus in ['03','3']:
 		pwpluss.append('ya')
